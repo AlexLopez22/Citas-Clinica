@@ -1,0 +1,25 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "correo": "juan@correo.com",
+      "contrasena": "123456"
+    },
+    {
+      "id": "37fb",
+      "nombre": "Esaud portaccarrero panta",
+      "correo": "essaud@gmail.com",
+      "contrasena": "123"
+    }
+  ],
+  "citas": [
+    {
+      "id": "6817",
+      "fecha": "2025-06-24",
+      "hora": "23:27",
+      "motivo": "prueba3",
+      "idUsuario": 1
+    }
+  ]
+}
