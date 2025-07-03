@@ -1,25 +1,46 @@
 {
+  "citas": [
+    {
+      "id": "2",
+      "idUsuario": 1,
+      "fecha": "2025-09-04",
+      "hora": "20:04",
+      "motivo": "prueba",
+      "confirmada": false
+    }
+  ],
   "usuarios": [
     {
       "id": "1",
       "nombre": "Juan Pérez",
-      "correo": "juan@correo.com",
-      "contrasena": "123456"
+      "correo": "essaud@gmail.com",
+      "contrasena": "123",
+      "rol": "usuario"
     },
     {
-      "id": "37fb",
-      "nombre": "Esaud portaccarrero panta",
-      "correo": "essaud@gmail.com",
-      "contrasena": "123"
+      "id": "2",
+      "nombre": "Administrador",
+      "correo": "admin@clinica.com",
+      "contrasena": "123",
+      "rol": "admin"
     }
   ],
-  "citas": [
+  "especialidades": [
     {
-      "id": "6817",
-      "fecha": "2025-06-24",
-      "hora": "23:27",
-      "motivo": "prueba3",
-      "idUsuario": 1
+      "id": "1",
+      "nombre": "Medicina general"
+    },
+    {
+      "id": "2",
+      "nombre": "Pediatría"
+    },
+    {
+      "id": "3",
+      "nombre": "Dermatología"
+    },
+    {
+      "id": "4",
+      "nombre": "Cardiología"
     }
   ]
 }
